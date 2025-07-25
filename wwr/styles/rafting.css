@@ -14,7 +14,7 @@ html {
     --accent2-color: #964B00;
 }
 
-h1,h2 {
+h1, h2 {
     color: var(--primary-color);
     text-align: center;
 }
@@ -59,6 +59,7 @@ p{
 .hero h1 {
     position: absolute;
     top: 20px;
+    left: 17%;
     color: var(--primary-color);
     background-color: rgba(208, 182, 97, 0.824);
 }
@@ -421,3 +422,28 @@ iframe {
     font-weight: 700;
     padding: 5px;
 }
+
+.flex-mid {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    position: absolute;
+    top: 30%;
+    background-color: #a8d3e8b0;
+    border: 1px solid #000;
+    margin: 0 20px;
+
+    p {
+        color: #000;
+        padding-left: 1rem;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: 15px;
+
+    }
+
+}
+
